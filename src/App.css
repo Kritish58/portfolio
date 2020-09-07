@@ -1,0 +1,70 @@
+.components-wrapper-aside-from-nav {
+  margin-left: 80px;
+}
+.nav-small-screen-menu-icon {
+  display: none;
+  position: fixed;
+  color: #fff;
+  right: 10px;
+  padding: 10px;
+}
+.nav-small-screen-menu-icon:hover {
+  color: aquamarine;
+  cursor: pointer;
+}
+.nav-small-screen-icon {
+  position: fixed;
+  color: #aaa;
+  background-color: #444;
+  border-radius: 50%;
+  display: none;
+}
+.nav-small-screen-icon.active {
+  color: aquamarine;
+}
+
+.nav-small-screen-icon-link {
+  color: #aaa;
+  cursor: default;
+}
+.nav-small-screen-icon-link.active {
+  color: aquamarine;
+}
+.nav-small-screen-icon-link:hover {
+  color: aquamarine;
+}
+/* when user clicks in mobile view */
+.nav-small-screen-icon:hover {
+  color: aquamarine;
+}
+.nssi-home {
+  right: 100px;
+  top: 10px;
+  padding: 4px 7px;
+}
+.nssi-projects {
+  right: 85px;
+  top: 50px;
+  padding: 4px 8px;
+}
+.nssi-skills {
+  right: 52px;
+  top: 77px;
+  padding: 4px 7px;
+}
+.nssi-contact {
+  right: 14px;
+  top: 90px;
+  padding: 4px 8px;
+}
+@media only screen and (max-width: 576px) {
+  .components-wrapper-aside-from-nav {
+    margin-left: 0;
+  }
+  .nav-small-screen-menu-icon {
+    display: block;
+  }
+  .nav-small-screen-icon {
+    display: block;
+  }
+}

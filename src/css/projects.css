@@ -1,0 +1,29 @@
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.projects-title {
+  cursor: default;
+}
+.projects-title:hover {
+  color: aquamarine !important;
+}
+.projects-button {
+  border: none;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #eee;
+  color: #444;
+  transition: all 0.2s;
+}
+.projects-button:hover {
+  color: #aaa;
+  background-color: #444;
+  text-decoration: none;
+}
+.projects-button.disabled {
+  pointer-events: none;
+  background-color: #bbb;
+}

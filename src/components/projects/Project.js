@@ -7,9 +7,10 @@ function Project(props) {
 
   const [projectHovered, setProjectHover] = useState(false);
   return (
-    <div
+    <motion.div
       className="p-2"
-      style={{ zIndex: -1000 }}
+      initial={{ scale: 0 }}
+      animate={{ scale: 1, transition: { duration: 0.3 } }}
       onMouseEnter={() => setProjectHover(true)}
       onMouseLeave={() => setProjectHover(false)}
     >
@@ -72,7 +73,7 @@ function Project(props) {
         </AnimatePresence>
       </div>
       <h6 className="text-muted text-center mt-2">{title}</h6>
-    </div>
+    </motion.div>
   );
 }
 

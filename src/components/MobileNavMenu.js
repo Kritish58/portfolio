@@ -25,7 +25,7 @@ function MobileNavMenu() {
     <div>
       <div
         className="nav-small-screen-menu-icon"
-        style={{ zIndex: 100000 }}
+        style={{ zIndex: 1000 }}
         onClick={() => {
           setMenuClick((prev) => !prev);
         }}
@@ -34,11 +34,12 @@ function MobileNavMenu() {
       </div>
       <AnimatePresence>
         {!!menuClicked && (
-          <div style={{ zIndex: 900 }}>
+          <div>
             <motion.div
               initial={{ top: 0, right: 0, scale: 0 }}
               animate={{ top: 10, right: 100, scale: 1 }}
               exit={{ top: -10, right: -10, opacity: 0, scale: 0, transition: { duration: 0.2 } }}
+              style={{ zIndex: 1000 }}
               className={`nav-small-screen-icon nssi-home`}
             >
               <Link className={`nav-small-screen-icon-link ${isHomePage ? 'active' : ''}`} to="/">
@@ -50,6 +51,7 @@ function MobileNavMenu() {
               initial={{ top: 0, right: 0, scale: 0 }}
               animate={{ top: 50, right: 85, scale: 1 }}
               exit={{ top: -10, right: -10, opacity: 0, scale: 0, transition: { duration: 0.2 } }}
+              style={{ zIndex: 1000 }}
               className={`nav-small-screen-icon nssi-projects`}
             >
               <Link
@@ -63,6 +65,7 @@ function MobileNavMenu() {
               initial={{ top: 0, right: 0, scale: 0 }}
               animate={{ top: 77, right: 52, scale: 1 }}
               exit={{ top: -10, right: -10, opacity: 0, scale: 0, transition: { duration: 0.2 } }}
+              style={{ zIndex: 1000 }}
               className={`nav-small-screen-icon nssi-skills ${path.includes('/skills') ? 'active' : ''}`}
             >
               <Link className={`nav-small-screen-icon-link ${path.includes('/skills') ? 'active' : ''}`} to="/skills">
@@ -74,6 +77,7 @@ function MobileNavMenu() {
               initial={{ top: 0, right: 0, scale: 0 }}
               animate={{ top: 90, right: 14, scale: 1 }}
               exit={{ top: -10, right: -10, opacity: 0, scale: 0, transition: { duration: 0.2 } }}
+              style={{ zIndex: 1000 }}
               className={`nav-small-screen-icon nssi-contact`}
             >
               <Link className={`nav-small-screen-icon-link ${path.includes('/contact') ? 'active' : ''}`} to="/contact">

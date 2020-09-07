@@ -7,7 +7,12 @@ function Project(props) {
 
   const [projectHovered, setProjectHover] = useState(false);
   return (
-    <div className="p-2" onMouseEnter={() => setProjectHover(true)} onMouseLeave={() => setProjectHover(false)}>
+    <div
+      className="p-2"
+      style={{ zIndex: -1000 }}
+      onMouseEnter={() => setProjectHover(true)}
+      onMouseLeave={() => setProjectHover(false)}
+    >
       <div style={{ position: 'relative' }}>
         <img style={{ width: '100%', height: 'auto', borderRadius: 4 }} loading="lazy" src={image} alt="" />
         <AnimatePresence>
@@ -25,7 +30,6 @@ function Project(props) {
                   height: '100%',
                   width: '100%',
                   opacity: 0.6,
-                  zIndex: 10,
                 }}
               ></motion.div>
               <div
@@ -34,7 +38,7 @@ function Project(props) {
                   backgroundColor: 'transparent',
                   position: 'absolute',
                   top: 0,
-                  zIndex: 20,
+
                   height: '100%',
                   width: '100%',
                   opacity: 1,

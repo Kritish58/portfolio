@@ -49,8 +49,8 @@ function Project(props) {
                   href={demoLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
+                  initial={{ opacity: 0, visibility: 'hidden' }}
+                  animate={{ opacity: 1, visibility: 'visible' }}
                   exit={{ opacity: 0, transition: { duration: 0.1 } }}
                   className="projects-button mr-1 d-flex align-items-center"
                 >
@@ -60,8 +60,8 @@ function Project(props) {
                   href={codeLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
+                  initial={{ opacity: 0, visibilityL: 'hidden' }}
+                  animate={{ opacity: 1, visibility: 'visible' }}
                   exit={{ opacity: 0, transition: { duration: 0.1 } }}
                   className={`projects-button ${codePrivate ? 'disabled' : ''} d-flex align-items-center`}
                 >

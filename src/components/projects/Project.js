@@ -60,7 +60,7 @@ function Project(props) {
                   href={codeLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  initial={{ opacity: 0, visibilityL: 'hidden' }}
+                  initial={{ opacity: 0, visibility: 'hidden' }}
                   animate={{ opacity: 1, visibility: 'visible' }}
                   exit={{ opacity: 0, transition: { duration: 0.1 } }}
                   className={`projects-button ${codePrivate ? 'disabled' : ''} d-flex align-items-center`}

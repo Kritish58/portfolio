@@ -25,11 +25,8 @@ function Skills() {
               HTML,CSS,JS(Typescript), responsive web design, animations using keyframes and libraries like
               framer-motion.
             </p>
-            <p>front end frameworks, bootstrap and material ui.</p>
-            <p>
-              familiar with CRA to create react applications, and learning alternatives gatsby and nextjs for better
-              performance and seo
-            </p>
+            <p>front end frameworks, Bootstrap and Material ui.</p>
+            <p>experience in React with CLR approach using create-react-app</p>
             <p>
               experience in REST api, creating them using express and mongoose in nodejs environment, and using them in
               react.

@@ -4,18 +4,40 @@ import '../../css/skills.css';
 
 function Skills() {
   return (
-    <div
-      className="d-flex align-items-center justify-content-center"
-      style={{ backgroundColor: '#1D1D1D', minHeight: '100vh' }}
-    >
-      <motion.h1
-        initial={{ scale: 0, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1, transition: { duration: 0.4 } }}
-        style={{ cursor: 'default' }}
-        className="text-muted w-100 text-center skills-title"
-      >
-        skills and experience
-      </motion.h1>
+    <div className="d-flex flex-wrap" style={{ backgroundColor: '#1D1D1D', minHeight: '100vh', fontFamily: 'Poppins' }}>
+      <div className="col-12 col-lg-6">
+        <div className=" h-100 d-flex px-4 flex-column justify-content-center">
+          <motion.h1
+            initial={{ scale: 0, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1, transition: { duration: 0.3 } }}
+            style={{ cursor: 'default', color: '#ccc' }}
+            className=" skills-title mb-4"
+          >
+            skills and experience
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1, transition: { duration: 0.3, delay: 0.3 } }}
+            className=""
+            style={{ color: '#aaa', letterSpacing: 1, lineHeight: 1.6 }}
+          >
+            <p>
+              HTML,CSS,JS(Typescript), responsive web design, animations using keyframes and libraries like
+              framer-motion.
+            </p>
+            <p>front end frameworks, bootstrap and material ui.</p>
+            <p>
+              familiar with CRA to create react applications, and exploring into alternatives gatsby and nextjs for
+              better performance and seo
+            </p>
+            <p>
+              experience in REST api, creating them using express and mongoose in nodejs environment, and using them in
+              react.
+            </p>
+          </motion.p>
+        </div>
+      </div>
+      <div className="col-12 col-lg-6 text-muted"></div>
     </div>
   );
 }

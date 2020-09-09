@@ -32,8 +32,8 @@ function Home() {
               </div>
             </h1>
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { duration: 1 } }}>
-              <Link to="/contact" className="home-contact-button" style={{ textDecoration: 'none' }}>
-                contact
+              <Link to="/projects" className="home-contact-button" style={{ textDecoration: 'none' }}>
+                view my work
               </Link>
             </motion.div>
           </div>
@@ -46,9 +46,9 @@ function Home() {
         className="home-container-item py-4 bg-success"
         style={{ color: '#ddd' }}
       >
-        <div className="text-center">
-          <div>
-            <h6>Profile</h6>
+        <div className="text-center d-flex flex-wrap" style={{ fontFamily: 'Poppins' }}>
+          <div className="col-6">
+            <h5>Profile</h5>
             <section className="home-profile-section">
               <a
                 href="https://github.com/Kritish58"
@@ -76,8 +76,9 @@ function Home() {
               </a>
             </section>
           </div>
-          <div className="text-center mt-4">
-            <h6>Contact me</h6>
+          {/*  */}
+          <div className="text-center col-6 ">
+            <h5>Contact </h5>
             <section className="home-profile-section mb-2">
               <a
                 style={{ color: '#ddd' }}
@@ -97,10 +98,39 @@ function Home() {
               <span className="ml-2">+977 9867461150</span>
             </section>
           </div>
-          <div className="mt-5">
+          <div className="mt-5 col-12">
             <h5 className="pb-4">
-              <i style={{ fontSize: 14 }} className="fas fa-drafting-compass"></i> my preferences
+              <i style={{ fontSize: 14 }} className="fas fa-drafting-compass"></i> skills
             </h5>
+            <div className="d-flex flex-wrap justify-content-center">
+              <p className="mx-1 px-3 py-1" style={{ backgroundColor: '#16802E', borderRadius: 20 }}>
+                html
+              </p>
+              <p className="mx-1 px-3 py-1" style={{ backgroundColor: '#16802E', borderRadius: 20 }}>
+                css
+              </p>
+              <p className="mx-1 px-3 py-1" style={{ backgroundColor: '#16802E', borderRadius: 20 }}>
+                javascript
+              </p>
+              <p className="mx-1 px-3 py-1" style={{ backgroundColor: '#16802E', borderRadius: 20 }}>
+                bootstrap
+              </p>
+              <p className="mx-1 px-3 py-1" style={{ backgroundColor: '#16802E', borderRadius: 20 }}>
+                material ui
+              </p>
+              <p className="mx-1 px-3 py-1" style={{ backgroundColor: '#16802E', borderRadius: 20 }}>
+                react
+              </p>
+              <p className="mx-1 px-3 py-1" style={{ backgroundColor: '#16802E', borderRadius: 20 }}>
+                express
+              </p>
+              <p className="mx-1 px-3 py-1" style={{ backgroundColor: '#16802E', borderRadius: 20 }}>
+                nodejs
+              </p>
+              <p className="mx-1 px-3 py-1" style={{ backgroundColor: '#16802E', borderRadius: 20 }}>
+                mongodb
+              </p>
+            </div>
             <AnimatedBox />
           </div>
         </div>

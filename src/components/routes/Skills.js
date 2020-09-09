@@ -27,8 +27,8 @@ function Skills() {
             </p>
             <p>front end frameworks, bootstrap and material ui.</p>
             <p>
-              familiar with CRA to create react applications, and exploring into alternatives gatsby and nextjs for
-              better performance and seo
+              familiar with CRA to create react applications, and learning alternatives gatsby and nextjs for better
+              performance and seo
             </p>
             <p>
               experience in REST api, creating them using express and mongoose in nodejs environment, and using them in

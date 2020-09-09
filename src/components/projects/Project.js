@@ -8,7 +8,7 @@ function Project(props) {
   const [projectHovered, setProjectHover] = useState(false);
   return (
     <motion.div
-      className="p-2"
+      className="px-4 py-3"
       initial={{ scale: 0 }}
       animate={{ scale: 1, transition: { duration: 0.3 } }}
       onMouseEnter={() => setProjectHover(true)}

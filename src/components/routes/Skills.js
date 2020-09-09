@@ -26,7 +26,7 @@ function Skills() {
               framer-motion.
             </p>
             <p>front end frameworks, Bootstrap and Material ui.</p>
-            <p>experience in React with CLR approach using create-react-app</p>
+            <p>experience in building CSR apps using create-react-app</p>
             <p>
               experience in REST api, creating them using express and mongoose in nodejs environment, and using them in
               react.

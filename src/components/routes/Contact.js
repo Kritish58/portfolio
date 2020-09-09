@@ -40,7 +40,8 @@ function Contact() {
           >
             <i style={{ fontSize: 24 }} className="fab fa-linkedin mx-1"></i>
           </a>
-          <p className="mt-1">rishi58rishi@gmail.com</p>
+          <div className="mt-1">rishi58rishi@gmail.com</div>
+          <>+977 9867461150</>
         </div>
 
         <div className="mt-4">

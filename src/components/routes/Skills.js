@@ -6,7 +6,7 @@ function Skills() {
   return (
     <div className="d-flex flex-wrap" style={{ backgroundColor: '#1D1D1D', minHeight: '100vh', fontFamily: 'Poppins' }}>
       <div className="col-12 col-lg-6">
-        <div className=" h-100 d-flex px-4 flex-column justify-content-center">
+        <div className=" h-100 d-flex p-4 flex-column justify-content-center">
           <motion.h1
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: 1, opacity: 1, transition: { duration: 0.3 } }}

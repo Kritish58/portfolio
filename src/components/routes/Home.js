@@ -15,7 +15,7 @@ function Home() {
       <ReactTooltip />
       <div className="home-container-item ">
         <div className="h-100 d-flex flex-column  align-items-center">
-          <div className="home-h1text" style={{ paddingTop: 120 }}>
+          <div className="home-h1text">
             <h1>{gen_rb_text_JSX('Hi,')}</h1>
             <h1>
               <div className="d-flex">
@@ -47,7 +47,7 @@ function Home() {
         style={{ color: '#ddd' }}
       >
         <div className="text-center d-flex flex-wrap" style={{ fontFamily: 'Poppins' }}>
-          <div className="col-6">
+          <div className="col-12 col-lg-6">
             <h5>Profile</h5>
             <section className="home-profile-section">
               <a
@@ -77,18 +77,8 @@ function Home() {
             </section>
           </div>
           {/*  */}
-          <div className="text-center col-6 ">
+          <div className="text-center col-12 col-lg-6 mt-4 mt-lg-0 ">
             <h5>Contact </h5>
-            <section className="home-profile-section mb-2">
-              <a
-                style={{ color: '#ddd' }}
-                href="https://www.facebook.com/kritish.bhattarai.5"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i style={{ fontSize: 24 }} data-tip="messenger" className="fab fa-facebook-messenger mx-1"></i>
-              </a>
-            </section>
             <section>
               <i style={{ fontSize: 14 }} className="fab fa-google mx-1"></i>
               <span>rishi58rishi@gmail.com</span>

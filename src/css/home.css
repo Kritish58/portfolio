@@ -39,3 +39,8 @@
   cursor: pointer;
   color: aquamarine;
 }
+@media only screen and (min-width: 576px) {
+  .home-h1text {
+    padding-top: 120px;
+  }
+}

@@ -43,4 +43,23 @@
   .home-h1text {
     padding-top: 120px;
   }
+  .home-container {
+    max-height: 100vh;
+    overflow-y: hidden;
+  }
+  .home-summary-container {
+    height: 100%;
+    overflow-y: scroll;
+  }
+  .home-summary-container::-webkit-scrollbar {
+    width: 10px;
+  }
+  .home-summary-container::-webkit-scrollbar-track {
+    background: #61e780;
+    border-radius: 10px;
+  }
+  .home-summary-container::-webkit-scrollbar-thumb {
+    background: #0b5e1f;
+    border-radius: 10px;
+  }
 }

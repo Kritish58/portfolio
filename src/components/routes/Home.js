@@ -46,7 +46,7 @@ function Home() {
         className="home-container-item py-4 bg-success"
         style={{ color: '#ddd' }}
       >
-        <div className="text-center d-flex flex-wrap" style={{ fontFamily: 'Poppins' }}>
+        <div className="text-center d-flex flex-wrap home-summary-container" style={{ fontFamily: 'Poppins' }}>
           <div className="col-12 col-lg-6">
             <h5>Profile</h5>
             <section className="home-profile-section">

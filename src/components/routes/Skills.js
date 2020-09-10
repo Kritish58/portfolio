@@ -21,10 +21,7 @@ function Skills() {
             className=""
             style={{ color: '#aaa', letterSpacing: 1, lineHeight: 1.6 }}
           >
-            <p>
-              HTML,CSS,JS(Typescript), responsive web design, animations using keyframes and libraries like
-              framer-motion.
-            </p>
+            <p>HTML,CSS,JS, responsive web design, animations using keyframes and libraries like framer-motion.</p>
             <p>front end frameworks: Bootstrap and Material ui.</p>
             <p>experience in building CSR apps using create-react-app</p>
             <p>

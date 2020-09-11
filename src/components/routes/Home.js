@@ -106,9 +106,6 @@ function Home() {
                 bootstrap
               </p>
               <p className="mx-1 px-3 py-1" style={{ backgroundColor: '#16802E', borderRadius: 20 }}>
-                material ui
-              </p>
-              <p className="mx-1 px-3 py-1" style={{ backgroundColor: '#16802E', borderRadius: 20 }}>
                 react
               </p>
               <p className="mx-1 px-3 py-1" style={{ backgroundColor: '#16802E', borderRadius: 20 }}>

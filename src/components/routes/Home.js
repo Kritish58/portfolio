@@ -21,7 +21,7 @@ function Home() {
               <div className="d-flex">
                 {gen_rb_text_JSX("I'm")}
                 <span>&nbsp;</span>
-                {gen_rb_text_JSX('Rishi,')}
+                {gen_rb_text_JSX('Kritish,')}
               </div>
             </h1>
             <h1>

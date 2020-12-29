@@ -68,22 +68,21 @@ function Projects() {
                     />
                 </div>
                 {/*  */}
-            </div>
+                {/* </div>
             <h3 className="p-2 mt-4 projects-title rb_text" style={{ color: '#888' }}>
                 front end
             </h3>
-            <div className="projects-container">
+            <div className="projects-container"> */}
                 {/* add new projects in this content manner */}
-                <div className=" p-0 col-12 col-sm-6 col-md-4 col-lg-3">
-                    {/* <div className="image-comp"></div> */}
-                    <Project
+                {/* <div className=" p-0 col-12 col-sm-6 col-md-4 col-lg-3"> */}
+                {/* <Project
                         title={'Inventory -v1'}
                         image={'/inv-v1.jpg'}
                         demoLink={'https://esolutn.netlify.app'}
                         codeLink={'https://github.com/Kritish58/inventory'}
                         codePrivate={false}
                     />
-                </div>
+                </div> */}
                 {/*  */}
             </div>
         </div>

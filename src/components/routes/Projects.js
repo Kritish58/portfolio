@@ -3,11 +3,6 @@ import '../../css/projects.css';
 
 import Project from '../projects/Project';
 
-// images
-import imageComp from '../../assets/images/projects/image-comp.jpg';
-import inventory from '../../assets/images/projects/inventory.jpg';
-import ssImage from '../../assets/images/projects/ss-image.jpg';
-
 function Projects() {
     return (
         <div

@@ -23,7 +23,7 @@ function Projects() {
                     <Project
                         title={'Inventory -v1'}
                         image={'/inv-v1.jpg'}
-                        demoLink={'https://esolutn.netlify.app/dashboard'}
+                        demoLink={'https://esolutn.netlify.app'}
                         codeLink={'https://github.com/Kritish58/inventory'}
                         codePrivate={false}
                     />

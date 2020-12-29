@@ -14,7 +14,7 @@ function Projects() {
             }}
         >
             <h3 className="p-2 mt-4 projects-title rb_text" style={{ color: '#888' }}>
-                Only Front end
+                front end
             </h3>
             <div className="projects-container">
                 {/* add new projects in this content manner */}

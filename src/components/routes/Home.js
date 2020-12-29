@@ -26,8 +26,13 @@ function Home() {
                         </h1>
                         <h1>
                             <div className="d-flex">
-                                {gen_rb_text_JSX('fullstack')}
+                                {gen_rb_text_JSX('a')}
                                 <span>&nbsp;</span>
+                                {gen_rb_text_JSX('fullstack')}
+                            </div>
+                        </h1>
+                        <h1>
+                            <div className="d-flex">
                                 {gen_rb_text_JSX('web')}
                                 <span>&nbsp;</span>
                                 {gen_rb_text_JSX('developer.')}

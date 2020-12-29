@@ -13,6 +13,24 @@ function Projects() {
                 fontFamily: 'Poppins',
             }}
         >
+            <h3 className="p-2 mt-4 projects-title rb_text" style={{ color: '#888' }}>
+                Only Front end
+            </h3>
+            <div className="projects-container">
+                {/* add new projects in this content manner */}
+                <div className=" p-0 col-12 col-sm-6 col-md-4 col-lg-3">
+                    {/* <div className="image-comp"></div> */}
+                    <Project
+                        title={'Inventory -v1'}
+                        image={'/inv-v1.jpg'}
+                        demoLink={'https://esolutn.netlify.app/dashboard'}
+                        codeLink={'https://github.com/Kritish58/inventory'}
+                        codePrivate={false}
+                    />
+                </div>
+                {/*  */}
+            </div>
+            {/*  */}
             <h3 className="p-2 projects-title rb_text" style={{ color: '#888' }}>
                 Solo
             </h3>

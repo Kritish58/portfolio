@@ -100,9 +100,6 @@ function Home() {
                                 css
                             </p>
                             <p className="mx-1 px-3 py-1" style={{ backgroundColor: '#16802E', borderRadius: 20 }}>
-                                javascript
-                            </p>
-                            <p className="mx-1 px-3 py-1" style={{ backgroundColor: '#16802E', borderRadius: 20 }}>
                                 bootstrap
                             </p>
                             <p className="mx-1 px-3 py-1" style={{ backgroundColor: '#16802E', borderRadius: 20 }}>

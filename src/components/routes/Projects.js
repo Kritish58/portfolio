@@ -43,7 +43,7 @@ function Projects() {
                 <div className=" p-0 col-12 col-sm-6 col-md-4 col-lg-3">
                     {/* <div className="image-comp"></div> */}
                     <Project
-                        image={'/hotel-bboking.jpg'}
+                        image={'/hotel-booking.jpg'}
                         title={'Hotel Booking'}
                         demoLink={'https://pubg-demon.herokuapp.com/'}
                         codeLink={'https://github.com/orgs/aashik-collab/dashboard'}

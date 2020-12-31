@@ -29,8 +29,8 @@ function Skills() {
                             framer-motion.
                         </p>
                         <p>front end css frameworks: Bootstrap and others.</p>
-                        <p>comfortable with react using CRA, or using webpack and babel, Nextjs</p>
-                        <p>creating REST API using nodejs/express and MongoDB or laravel/mysql </p>
+                        <p>comfortable with react using CRA, Nextjs</p>
+                        <p>creating REST API using nodejs/express </p>
                         <p>some working experience with laravel/mysql/vue</p>
                     </motion.p>
                 </div>

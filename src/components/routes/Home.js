@@ -73,14 +73,14 @@ function Home() {
                             >
                                 <i style={{ fontSize: 24 }} className="fab fa-linkedin mx-1"></i>
                             </a>
-                            <a
+                            {/* <a
                                 href="https://www.facebook.com/kritish.bhattarai.5"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 style={{ color: '#ddd' }}
                             >
                                 <i style={{ fontSize: 24 }} className="fab fa-facebook-square mx-1"></i>
-                            </a>
+                            </a> */}
                         </section>
                     </div>
                     {/*  */}

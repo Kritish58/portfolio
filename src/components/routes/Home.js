@@ -25,9 +25,6 @@ function Home() {
                      </div>
                   </h1>
                   <h1>
-                     <div className="d-flex">{gen_rb_text_JSX('a')}</div>
-                  </h1>
-                  <h1>
                      <div className="d-flex">
                         {gen_rb_text_JSX('web')}
                         <span>&nbsp;</span>
